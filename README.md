@@ -16,12 +16,13 @@ How to use:
 ```
     test('should return url with query string parameter', () => {
         let url = sut()
-            .withHost('www.yoox.com')
+            .withHost('www.example.com')
             .withIso('it')
-            .withPath('myoox/login')
+            .withPath('/login')
             .withQueryParameter('returnUrl', '/')
             .build();
-        expect(url).toBe( 'https://www.yoox.com/it/myoox/login?returnUrl=/');
+
+        expect(url).toBe('https://www.example.com/it/login?returnUrl=/');
     });
 ```
 
