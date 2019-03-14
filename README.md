@@ -1,5 +1,10 @@
 # url-builder
 
+[![Build Status](https://travis-ci.org/FrancoMelandri/url-builder.svg?branch=master)](https://travis-ci.org/FrancoMelandri/url-builder)
+
+[![NPM version](https://img.shields.io/npm/v/@francomelandri/url-builder.svg?style=flat)](https://www.npmjs.com/package/@francomelandri/url-builder)
+
+
 Small node packge to build an url starting form a template like this:
 
 ```

@@ -1,20 +1,17 @@
 {
-  "name": "url-builder",
+  "name": "@francomelandri/url-builder",
   "version": "1.0.0",
   "description": "url builder",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint ./ --cache",
-    "test": "jest"
+    "lint": "eslint ./",
+    "test": "jest ./__tests__"
   },
-  "author": "Franco Melandri",
+  "author": "Franco Melandri <franco.melandri@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "jest": "21.2.1"
-  },
-  "devDependencies": {
+    "jest": "21.2.1",
     "eslint": "^3.19.0",
-    "gulp-eslint": "^3.0.1",
     "jest-mock-now": "^1.2.0"
   }
 }
